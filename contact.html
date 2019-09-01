@@ -6,13 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.scss/style.css">
     <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <header> <img src="ss.png" alt="picture">
+        <nav>
+            <ul>
+                <li>
+                    <a href="accueil.html">Home</a>
+                </li>
+                <li>
+                    <a href="galerie.html">Galerie</a>
+                </li>
+                <li>
+                    <a href="prestations.html">Tarif </a>
+                </li>
+                <li>
+                    <a href="contact.html">Contactez moi</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5065.950212861453!2d3.118656!3d50.590416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d6f35265a399%3A0x90bd89b34429efcd!2s2+Boulevard+Thomson%2C+59810+Lesquin!5e0!3m2!1sfr!2sfr!4v1566254282871!5m2!1sfr!2sfr"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <section class="form">
+            <article>
+                <label for="nom">Votre Nom </label><input type="text" name="Nom" id="Nom"><br>
+
+                <label for="prenom"> Votre Prènom </label><input type="text" name="Prenom" id="Prenom"><br>
+                <label for="about"> Sujet</label><input type="text" name="about" id="about"><br>
+
+                <label for="mail">Adresse mail: </label><input type="text" name="adresse mail" id="adresse mail"><br>
+
+                <label for="ameliorer">votre message:</label><br />
+                <textarea name="ameliorer" id="ameliorer">  </textarea>
+            </article>
+            <article>
+                <input type="submit" value="Envoyer" />
+            </article>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
