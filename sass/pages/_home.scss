@@ -1,0 +1,8 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(1fr, auto);
+    font-size: 1.5rem;
+    color: white;
+    grid-template-areas: "header header nav nav " "main main main main " "main main main main" "main main main main" "footer footer footer footer ";
+}
